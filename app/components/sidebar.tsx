@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           Cormac的GPT镜像站
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          输入密码以免费使用GPT-3.5
+          免费GPT-3.5-turbo,gpt-4,embeddings模型
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -216,11 +216,11 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
-          </div>
+         // <div className={styles["sidebar-action"]}>
+          //  <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+             // <IconButton icon={<GithubIcon />} shadow />
+           // </a>
+         // </div>
         </div>
         <div>
           <IconButton
