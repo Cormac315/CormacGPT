@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "Cormac's GPT3.5",
+  title: "Cormac's GPT",
   description: "欢迎使用",
   viewport: {
     width: "device-width",
