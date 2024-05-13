@@ -12,7 +12,7 @@ const cn = {
   },
   Auth: {
     Title: "需要密码",
-    Tips: "欢迎来到Cormac的gpt镜像站，请输入密码以使用gpt-3.5模型",
+    Tips: "欢迎来到Cormac的gpt镜像站，请在下方输入密码以继续",
     SubTips: "或者输入你的 OpenAI 或 Google API 密钥访问任意模型",
     Input: "在此处填写密码",
     Confirm: "确认",
