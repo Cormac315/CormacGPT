@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           Cormac的GPT镜像站
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          免费GPT-3.5-turbo,gpt-4,embeddings模型
+          免费GPT-3.5-turbo,GPT-4,embeddings模型
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
